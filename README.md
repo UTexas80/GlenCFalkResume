@@ -1,6 +1,6 @@
-# AidRecipientProfiles
+# Glen C. Falk's Resume
 
-Welcome to ProjectTemplate!
+Welcome to my .RMD resume.
 
 This file introduces you to ProjectTemplate, but you should eventually replace
 the contents of this file with an introduction to your project. People who
