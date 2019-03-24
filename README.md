@@ -2,38 +2,22 @@
 
 Welcome to my .RMD resume.
 
-This file introduces you to ProjectTemplate, but you should eventually replace
-the contents of this file with an introduction to your project. People who
-work with your data in the future will thank you for it, including your future
-self.
 
-ProjectTemplate is an R package that helps you organize your statistical
-analysis projects. Since you're reading this file, we'll assume that you've
-already called `create.project()` to set up this project and all of its
-contents.
+- Created a [Pagedown Resume](/docs/resume/) for my personal CV.
+- The process create paged HTML documents for printing from R Markdown.
+- The source file of the website is hosted on [Github](https://github.com/UTexas80/GlenCFalkResume).
 
-To load your new project, you'll first need to `setwd()` into the directory
-where this README file is located. Then you need to run the following two
-lines of R code:
+## Built With
 
-	library('ProjectTemplate')
-	load.project()
+- [**R**](https://www.r-project.org/) - R programming language.
+- [**R Markdown**](https://rmarkdown.rstudio.com) - R Markdown.
 
-After you enter the second line of code, you'll see a series of automated
-messages as ProjectTemplate goes about doing its work. This work involves:
-* Reading in the global configuration file contained in `config`.
-* Loading any R packages you listed in he configuration file.
-* Reading in any datasets stored in `data` or `cache`.
-* Preprocessing your data using the files in the `munge` directory.
+## License
 
-Once that's done, you can execute any code you'd like. For every analysis
-you create, we'd recommend putting a separate file in the `src` directory.
-If the files start with the two lines mentioned above:
+This website is licensed under the MIT License - see the [LICENSE.md](/LICENSE) file for details.
 
-	library('ProjectTemplate')
-	load.project()
+## Acknowledgments
 
-You'll have access to all of your data, already fully preprocessed, and
-all of the libraries you want to use.
-
-For more details about ProjectTemplate, see http://projecttemplate.net
+- Thanks to:
+  -  [**Yihue Xie**](https://yihui.name/) and [**Romain Lesur**](https://github.com/RLesur) for the [pagedown: Creating Beautiful PDFs with R Markdown + CSS + Your Web Browser](https://slides.yihui.name/2019-rstudio-conf-pagedown.html#1) presentation.
+  -  [**Steven V. Miller](http://svmiller.com/blog/2016/03/svm-r-markdown-cv/) for inspiration.
